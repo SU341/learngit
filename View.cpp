@@ -13,7 +13,7 @@ ModelingGraphicsView::ModelingGraphicsView(QWidget *parent):
     QGraphicsView(parent),
     m_scrolling(false)
 {
-    //reset();
+
     //	反锯齿
     setRenderHints(QPainter::Antialiasing);
     //	隐藏滚动条
